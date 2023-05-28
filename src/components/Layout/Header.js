@@ -1,8 +1,10 @@
-import { Fragment } from 'react';
+import { Fragment, useContext } from 'react';
 import classes from './Header.module.css'
 import MealsImg from './../../assets/meals.jpg'
 import CardButton from './CartButton';
+
 const Header =(props)=>{
+   
 return <Fragment>
     <header className={classes.header}>
         <h1>ReactMeals </h1>
